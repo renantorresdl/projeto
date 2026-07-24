@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+
+int main() {   
+
+
     char estado1[20], cidade1[30], codigo1[10];
     int habitantes1, turistico1;
     float area1, pib1;
@@ -69,3 +75,6 @@
     printf("Área: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
     printf("Pontos Turísticos: %d\n", turistico2);
+
+        return 0;
+}
